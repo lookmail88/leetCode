@@ -16,7 +16,6 @@ class Solution {
         int max = 0;
         String[] ar = s.split("");
         for (int i = ar.length-1;i>=0;i--){
-            System.out.println(ar[i]);
             int curr=values.get(ar[i]);
             if (curr>=max) {
                 max = curr;
